@@ -25,11 +25,12 @@
     --section-title-color: var(--color-black);
 }
 
-
+* , *::before, *::after {
+    box-sizing: border-box;
+}
 
 html {
     scroll-behavior: smooth;
-    box-sizing: border-box;
     font-size: 62.5%;
     font-weight: var(--font-weight-regular);
 }
