@@ -17,7 +17,7 @@
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-    --section-header-allign: center;
+    --section-header-align: center;
 }
 
 html {
@@ -32,8 +32,9 @@ body, a {
 
 body {
     font-family: var(--font-family-base);
+    font-weight: var(--font-weight-regular);
     font-size: var(--font-size-medium);
-    max-height: var(--line-height-base);
+    line-height: var(--line-height-base);
 }
 
 a {
@@ -50,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-header {
-    text-align: var(--section-header-allign);
+    text-align: var(--section-header-align);
 }
 
 .card-category,
