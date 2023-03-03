@@ -20,7 +20,7 @@
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color: var(var(--color-black))
+    --section-title-color: var(--color-black);
 }
 
 html {
@@ -53,7 +53,7 @@ a:hover {
 }
 
 a:active {
-    color: var(--color-light-grey)
+    color: var(--color-light-grey);
 }
 
 h1, h2, h3, h4, h5, h6 {
