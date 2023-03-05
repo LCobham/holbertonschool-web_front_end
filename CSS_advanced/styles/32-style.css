@@ -304,6 +304,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
+
 } 
 
 .card-work .card-title {
@@ -335,6 +338,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-work:hover .card-image {
     transform: scale(1.2);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
